@@ -7,8 +7,9 @@ define('FRAMEWORK_PATH',dirname(__FILE__).DS);  //框架目录
 defined('APP_PATH') or define('APP_PATH',dirname($_SERVER['SCRIPT_FILENAME']).DS);
 //核心类库路径
 define('CORE_PATH',FRAMEWORK_PATH.'Core'.DS);
-define('COMMON_PATH',APP_PATH.'Common'.DS);
-define('CONF_PATH',APP_PATH.'Conf'.DS);
+define('COMMON_PATH',FRAMEWORK_PATH.'Common'.DS);
+define('CONF_PATH',FRAMEWORK_PATH.'Conf'.DS);
+define('UNITE_PATH',FRAMEWORK_PATH.'Unite'.DS);
 //核心类库
 define('HEART_PATH',CORE_PATH.'Heart'.DS);
 //行为类库
